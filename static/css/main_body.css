@@ -45,7 +45,7 @@
 }
 
 .explore-plans .img-explore {
-  max-width: 830px;
+  max-width: 500px;
 }
 
 .explore-plans .img-explore img {
@@ -426,6 +426,10 @@
   
   .portfolio .img-portfolio {
     margin-bottom: 40px;
+  }
+
+  .testimonial {
+    padding: 15px 0 35px;
   }
 }
 
