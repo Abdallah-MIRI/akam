@@ -1,0 +1,227 @@
+/* 
+** Theme: File Css Header WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+/* Header */
+.main-header {
+  background-color: #F6F8FA;
+  background-color: #fafcff;
+}
+
+.main-header .content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 130px;
+}
+
+#logo {
+  max-width: 120px;
+  height: auto;
+  display: inline-block;
+}
+
+#logo img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hamburger-box .hamburger-inner, 
+.hamburger-box .hamburger-inner:before, 
+.hamburger-box .hamburger-inner:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: rgb(39 39 39);
+}
+
+.hamburger-box .hamburger-inner {
+  top: 2px;
+  transition: top .2s ease, background-color .1s ease-in-out;
+}
+
+.hamburger-box .hamburger-inner:before {
+  top: 10px;
+  transition: top .2s ease, transform .3s ease;
+}
+
+.hamburger-box .hamburger-inner:after {
+  top: 20px;
+  transition: top .2s ease, transform .3s ease;
+}
+
+.hamburger-box.active .hamburger-inner {
+  top: 10px;
+  background-color: transparent;
+}
+
+.hamburger-box.active .hamburger-inner:before {
+  top: 2px;
+  transform: rotate(45deg);
+}
+
+.hamburger-box.active .hamburger-inner:after {
+  top: 2px;
+  transform: rotate(-45deg);
+}
+
+/* Navigation */
+.navigation .un-list .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.navigation .un-list .nav-item .nav-item-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #838c96;
+  position: relative;
+  overflow: hidden;
+}
+
+.navigation .un-list .nav-item .nav-item-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  width: 100%;
+  height: 4px;
+  opacity: 0;
+  transform: translate(0, -50%);
+  background-color: #3db8e6;
+  transition: all .3s ease;
+}
+
+.navigation .un-list .nav-item .nav-item-link:hover.nav-item-link::before,
+.navigation .un-list .nav-item .nav-item-link:active.nav-item-link::before {
+  opacity: .5;
+  left: 0;
+}
+
+.navigation .un-list .nav-item .drop-down {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  background-color: #fff;
+  list-style: none;
+  padding: 15px 18px;
+  border-radius: 3px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(.8);
+  transition: all .3s ease;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.navigation .un-list .nav-item:hover .drop-down {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.navigation .un-list .nav-item:last-of-type .drop-down {
+  right: 0;
+  left: auto;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item {
+  display: block;
+  margin-top: 10px;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item:first-of-type {
+  margin-top: 0;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item .down-item-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #838c96;
+  position: relative;
+  overflow: hidden;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item .down-item-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  width: 100%;
+  height: 4px;
+  opacity: 0;
+  transform: translate(0, -50%);
+  background-color: #3de6a3;
+  transition: all .3s ease;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item .down-item-link:hover.down-item-link::before,
+.navigation .un-list .nav-item .drop-down .down-item .down-item-link:active.down-item-link::before {
+  opacity: .5;
+  left: 0;
+}
+
+@media (max-width: 690px) {
+  .body-over-hidden.is-hidden {
+    overflow: hidden;
+  }
+
+  .hamburger-box {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navigation {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    top: 90px;
+    background-color: #f6f8fa;
+    background-color: #fafcff;
+    height: 100%;
+  }
+
+  .navigation .un-list .nav-item {
+    display: block;
+    margin: 10px 0;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .navigation.show {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+  }
+  
+  .navigation .un-list .nav-item:last-of-type .drop-down {
+    right: auto;
+    left: auto;
+  }
+  
+  .navigation .un-list .nav-item .drop-down {
+    top: 33px;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+  }
+}
+/* End Header */

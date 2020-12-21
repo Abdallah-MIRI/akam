@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.62 21.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #03b9e1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect class="cls-1" x="1.5" y="1.5" width="18.62" height="18.62"/>
+    </g>
+  </g>
+</svg>

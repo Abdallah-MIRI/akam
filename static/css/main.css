@@ -1,0 +1,29 @@
+/* 
+** Theme: Main File Css;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+/* Import File Css */
+@import 'main_header.css';
+@import 'footer.css';
+@import 'main_body.css';
+/* End Import File Css */
+
+/* Global Class and Id */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fafcff;
+}
+
+.container-page {
+  max-width: 95%;
+  margin: 0 auto;
+}
+/* End Global Class and Id */
