@@ -1,0 +1,36 @@
+/* 
+** Theme: File Style Main Body Content right to left WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+/* Start Explore Plans */
+.explore-plans .text {
+  margin-right: 45px;
+  margin-left: 0;
+}
+
+.explore-plans .text p {
+  max-width: 440px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio .info {
+  margin-right: 30px;
+}
+/* End Explore Plans */
+
+/* Media */
+@media (max-width: 1071px) {
+  .portfolio .info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 690px) {
+  .explore-plans .text {
+    text-align: center;
+  }
+}

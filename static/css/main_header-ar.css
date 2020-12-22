@@ -1,0 +1,37 @@
+/* 
+** Theme: File Css Header right to left WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+/* Start Navigation */
+.navigation {
+  z-index: 1;
+}
+
+.navigation .un-list .nav-item .nav-item-link {
+  font-weight: 600;
+}
+
+.navigation .un-list .nav-item .nav-item-link:hover {
+  color: #5bb98e;
+}
+
+.navigation .un-list .nav-item .nav-item-link::before {
+  position: initial;
+}
+
+.navigation .un-list .nav-item:last-of-type .drop-down {
+  right: auto;
+  left: 0;
+  min-width: 200px;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item .down-item-link:hover {
+  color: tomato;
+}
+
+.navigation .un-list .nav-item .drop-down .down-item .down-item-link::before {
+  position: initial;
+}
+/* End Navigation */
