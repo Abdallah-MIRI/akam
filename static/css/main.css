@@ -10,16 +10,26 @@
 @import 'main_body.css';
 /* End Import File Css */
 
+/* Fonts Family google import Tajawal */
+@font-face {
+  font-family: Tajawal;
+  src: url('../fonts/Tajawal/Tajawal-Black.ttf');
+  src: url('../fonts/Tajawal/Tajawal-Bold.ttf');
+  src: url('../fonts/Tajawal/Tajawal-Light.ttf');
+  src: url('../fonts/Tajawal/Tajawal-Medium.ttf');
+}
+/* End font Google */
+
 /* Global Class and Id */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Tajawal, sans-serif;
 }
 
 body {
-  background-color: #fafcff;
+  background-color: #fff;
 }
 
 .container-page {

@@ -5,6 +5,19 @@
 */
 
 ///////
+// Event Main Header Bacground Color
+///////
+let mainHeader = document.getElementById('main-header');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    mainHeader.classList.add('back-color');
+  } else {
+    mainHeader.classList.remove('back-color');
+  }
+})
+
+///////
 // Event Icon Menu Hamburger
 ///////
 let hamburgerBox = document.getElementById('hamburger-box');
@@ -12,9 +25,16 @@ let navigation = document.getElementById('navigation')
 let bodyOverHidden = document.querySelector('.body-over-hidden')
 
 hamburgerBox.addEventListener('click', () => {
+
   hamburgerBox.classList.toggle('active');
   navigation.classList.toggle('show');
   bodyOverHidden.classList.toggle('is-hidden');
+  if (navigation.classList.contains('show')) {
+    mainHeader.style.backgroundColor = '#345185';
+  } else {
+    mainHeader.style.backgroundColor = '';
+  }
+  
 })
 
 ///////
@@ -100,6 +120,7 @@ function autoSlide() {
   // Set Active class on Current Pagination Item
   dots.children[startIndex - 1].classList.add('active');
   setTimeout(autoSlide, 3000);
+  
 }
 
 let hasClassBody = document.body.classList.contains('body-home');
