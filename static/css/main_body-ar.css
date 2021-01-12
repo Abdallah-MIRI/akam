@@ -24,6 +24,11 @@
 .portfolio .info {
   margin-right: 30px;
 }
+
+#submit {
+  margin-left: 0;
+  margin-right: 7px;
+}
 /* End Explore Plans */
 
 /* Media */
