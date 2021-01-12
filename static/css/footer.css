@@ -8,7 +8,7 @@
 .footer {
   padding-top: 40px;
   background: #546a75;
-  background-color: #f7f7f7;
+  background-color: #345185;
 }
 
 .footer .subscribe-email {
@@ -23,7 +23,7 @@
 
 .footer .subscribe-email h4 {
   font-size: 20px;
-  color: #546a75;
+  color: #eee;
   margin-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #email::placeholder {
-  color: #E0E0E0;
+  color: #bbb;
 }
 
 #submit {
@@ -60,15 +60,24 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  color: #fff;
+  color: #345185;
   font-size: 15px;
-  background-color: #272727;
+  font-weight: 600;
+  background-color: #9fe6db;
+}
+
+#submit:hover {
+  background-color: #b0f3e9;
+}
+
+#submit:focus {
+  box-shadow: 0 0 0 3px #114b7a;
 }
 
 .content-bottom {
   padding: 20px 0 15px;
   margin-top: 50px;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #244072;
 }
 
 .content-bottom .social-media {
@@ -91,7 +100,7 @@
 
 .content-bottom .copyright {
   font-size: 14px;
-  color: #546a75;
+  color: #aaa;
   text-align: center;
 }
 

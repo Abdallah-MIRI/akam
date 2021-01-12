@@ -20,28 +20,28 @@
 ########
 # Script Downlad Youtube playlast Video
 ########
-# from pytube import Playlist
+from pytube import Playlist
  
-# try:
-#     playlist = Playlist('https://www.youtube.com/playlist?list=PLcow8_btriE11hzMbT3-B1sBg4YIc-9g_')
+try:
+    playlist = Playlist('https://youtube.com/playlist?list=PLDoPjvoNmBAytfRIdMIkLeoQHP0o5uWBa')
  
-#     playlist.download_all(download_path='/Users/pankaj/temp')
+    playlist.download_all(download_path='E:/Learn Pro/Learn Zero')
  
-# except Exception as e:
-#     print(e)
+except Exception as e:
+    print(e)
 
 
 #########
 # Script Downlad Youtube Audio 
 #########
-from pytube import YouTube
+# from pytube import YouTube
  
-youtube_video_url = 'https://youtu.be/McBUGzPSj-M'
+# youtube_video_url = 'https://youtu.be/McBUGzPSj-M'
  
-try:
-    yt_obj = YouTube(youtube_video_url)
+# try:
+#     yt_obj = YouTube(youtube_video_url)
  
-    yt_obj.streams.get_audio_only().download(output_path='D:/القرآن الكريم', filename='audio')
-    print('YouTube video audio downloaded successfully')
-except Exception as e:
-    print(e)
+#     yt_obj.streams.get_audio_only().download(output_path='D:/القرآن الكريم', filename='audio')
+#     print('YouTube video audio downloaded successfully')
+# except Exception as e:
+#     print(e)

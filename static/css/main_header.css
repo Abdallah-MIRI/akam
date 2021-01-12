@@ -16,7 +16,7 @@
 .main-header.back-color {
   min-height: 70px;
   z-index: 2;
-  background-color: #345185;
+  background-color: #33a4d7;
   box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
 }
 
@@ -33,14 +33,14 @@
 }
 
 #logo {
-  max-width: 120px;
+  max-width: 110px;
   height: auto;
   display: block;
   text-decoration: none;
 }
 
 #logo img {
-  display: inline-block;
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -63,8 +63,8 @@
 }
 
 .hamburger-box {
-  width: 40px;
-  height: 24px;
+  width: 30px;
+  height: 15px;
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -78,10 +78,10 @@
   content: '';
   display: block;
   position: absolute;
-  width: 40px;
-  height: 4px;
+  width: 30px;
+  height: 3px;
   border-radius: 4px;
-  background-color: rgb(39 39 39);
+  background-color: rgb(221 234 251);
 }
 
 .hamburger-box .hamburger-inner {
@@ -90,12 +90,12 @@
 }
 
 .hamburger-box .hamburger-inner:before {
-  top: 10px;
+  top: 7px;
   transition: top .2s ease, transform .3s ease;
 }
 
 .hamburger-box .hamburger-inner:after {
-  top: 20px;
+  top: 15px;
   transition: top .2s ease, transform .3s ease;
 }
 
@@ -181,6 +181,11 @@
 @media (max-width: 690px) {
   .body-over-hidden.is-hidden {
     overflow: hidden;
+  }
+
+  .explore-plans {
+    min-height: 100vh;
+    padding: 9vh 0;
   }
 
   .hamburger-box {
