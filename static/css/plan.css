@@ -1,0 +1,194 @@
+/* 
+** Theme: File Style Plan Page WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+.plan {
+  padding: 18vh 0 20vh;
+}
+
+.plan .title-page {
+  text-align: center;
+  font-size: 2em;
+}
+        
+.plan .row {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+      
+.plan .card-plan {
+  margin: 10px 20px;
+  padding: 20px 30px;
+  text-align: center;
+  border: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+                    
+.plan .card-plan .card-head h4 {
+  font-size: 25px;
+}
+    
+.plan .card-plan .card-head p {
+  font-size: 14px;
+}
+    
+.plan .card-plan .card-body div {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.plan .card-plan .card-body span {
+  display: block;
+  width: 15px;
+  margin-right: 5px;
+}
+      
+.plan .card-plan .card-body span img {
+  display: block;
+  width: 100%;
+}
+
+.plan .card-plan .card-footer a {
+  display: block;
+  width: fit-content;
+  margin: 16px auto 0;
+  padding: 5px 10px;
+  background-color: lightcyan;
+  text-decoration: none;
+  color: #0a0d0d;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.plan .form-pyment {
+  width: 358px;
+  margin: 10vh auto 0;
+  border-radius: 5px;
+  border: 1px solid rgba(221, 221, 221, 0.575);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+                    
+.plan .form-pyment .form-header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+    
+.plan .form-pyment .form-body {
+  padding: 15px 20px;
+}
+
+#num-card {
+  padding: 7px;
+  display: block;
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+                        
+.plan .form-pyment .form-body .date-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+        
+.plan .form-pyment .form-body .date-field .month,
+.plan .form-pyment .form-body .date-field .year {
+  flex-basis: 50%;
+}
+
+.plan .form-pyment .form-body .date-field .year {
+  margin-left: 5px;
+}
+
+#month,
+#year {
+  padding: 7px;
+  width: 100%;
+  opacity: .7;
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
+  -moz-appearance: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid rgba(221, 221, 221, 0.5);
+}
+
+.plan .form-pyment .form-body .card-verification-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#cvv {
+  flex-basis: 50%;
+  padding: 7px;
+  display: block;
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.plan .form-pyment .form-body .card-verification-field .cvv-details {
+  flex-basis: 50%;
+  color: #86939e;
+  font-size: 12px;
+}
+    
+.plan .form-pyment .form-body .btn-proceed,
+.plan .form-pyment .form-body .btn-paypal {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  padding: 9px 6px;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.plan .form-pyment .form-body .btn-proceed {
+  background-color: #7dc855;
+}
+                
+.plan .form-pyment .form-body .btn-paypal {
+  background: url('paypal-logo.svg') no-repeat 65% 56% #009cde;
+}

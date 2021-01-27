@@ -1,0 +1,41 @@
+/* 
+** Theme: File Style Error Page WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+.error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(#fff, #fff), url('../images/icons/Thur.svg') center / cover no-repeat;
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #03A9F4, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+          
+.error-page h1 {
+  font-size: 3em;
+}
+
+.error-page a {
+  display: block;
+  color: #185a9d;
+  background-color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+          
+.error-page .logo-error-page {
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  max-width: 200px;
+  background-color: transparent;
+}
+        
+.error-page .logo-error-page img {
+  width: 100%;
+}

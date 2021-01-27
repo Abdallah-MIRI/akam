@@ -8,6 +8,10 @@
 @import 'main_header.css';
 @import 'footer.css';
 @import 'main_body.css';
+@import 'page.css';
+@import 'contact-form.css';
+@import 'error-page.css';
+@import 'plan.css';
 /* End Import File Css */
 
 /* Fonts Family google import Tajawal */

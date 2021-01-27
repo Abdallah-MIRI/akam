@@ -6,7 +6,7 @@
 
 /* Header */
 .main-header {
-  background: transparent;
+  background: #b8f7ff !important;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -124,7 +124,7 @@
 .navigation .un-list .nav-item .nav-item-link {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #4e4e4e;
   position: relative;
   overflow: hidden;
 }

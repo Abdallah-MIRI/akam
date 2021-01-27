@@ -1,0 +1,123 @@
+/* 
+** Theme: File Style Page Content WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+.main-header {
+  background-color: #9fe6db;
+}
+
+.hamburger-box .hamburger-inner, 
+.hamburger-box .hamburger-inner:before, 
+.hamburger-box .hamburger-inner:after {
+  background-color: rgb(52 81 133);
+}
+
+.header-page {
+  text-align: center;
+  padding: 130px 0 65px;
+  background: linear-gradient(34deg, rgb(159 230 219 / 73%), rgb(226 217 151)), url('../images/icons/Thur.svg') center / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  /* background: url('../images/icons/3285952.jpg'), linear-gradient(34deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) center / cover no-repeat initial initial; */
+  /* [ <bg-layer> , ]* <final-bg-layer>where <bg-layer> = <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box><final-bg-layer> = <'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>where <bg-image> = none | <image><bg-position> = [ [ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ] ]<bg-size> = [ <length-percentage> | auto ]{1,2} | cover | contain<repeat-style> = repeat-x | repeat-y | [ repeat | space | round | no-repeat ]{1,2}<attachment> = scroll | fixed | local<box> = border-box | padding-box | content-boxwhere <image> = <url> | <image()> | <image-set()> | <element()> | <paint()> | <cross-fade()> | <gradient><length-percentage> = <length> | <percentage>where <image()> = image( <image-tags>? [ <image-src>? , <color>? ]! )<image-set()> = image-set( <image-set-option># )<element()> = element( <id-selector> )<paint()> = paint( <ident>, <declaration-value>? )<cross-fade()> = cross-fade( <cf-mixing-image> , <cf-final-image>? )<gradient> = <linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()>where <image-tags> = ltr | rtl<image-src> = <url> | <string><color> = <rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color><image-set-option> = [ <image> | <string> ] <resolution><id-selector> = <hash-token><cf-mixing-image> = <percentage>? && <image><cf-final-image> = <image> | <color><linear-gradient()> = linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )<repeating-linear-gradient()> = repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )<radial-gradient()> = radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )<repeating-radial-gradient()> = repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )<conic-gradient()> = conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )where <rgb()> = rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )<rgba()> = rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )<hsl()> = hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )<hsla()> = hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )<side-or-corner> = [ left | right ] || [ top | bottom ]<color-stop-list> = [ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop><ending-shape> = circle | ellipse<size> = closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}<position> = [ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]<angular-color-stop-list> = [ <angular-color-stop> [, <angular-color-hint>]? ]# , <angular-color-stop>where <alpha-value> = <number> | <percentage><hue> = <number> | <angle><linear-color-stop> = <color> <color-stop-length>?<linear-color-hint> = <length-percentage><angular-color-stop> = <color> && <color-stop-angle>?<angular-color-hint> = <angle-percentage>where <color-stop-length> = <length-percentage>{1,2}<color-stop-angle> = <angle-percentage>{1,2}<angle-percentage> = <angle> | <percentage> */
+}
+
+.header-page .title-page {
+  font-size: 2.5em;
+}
+
+.description-page {
+  max-width: 300px;
+  margin: 0 auto;
+  /* background-color: #e9c8d6; */
+  padding: 8px;
+  border-radius: 1px;
+}
+
+.content-page {
+  padding: 50px 0;
+}
+
+.content-page figure {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.content-page figure img {
+  width: 100%;
+  display: block;
+}
+
+.content-page figure figcaption {
+  text-align: center;
+}
+
+.content-page .text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-page .text h2,
+.content-page .text h3,
+.content-page .text h4,
+.content-page .text h5,
+.content-page .text h6 {
+  color: teal;
+  margin-top: 15px;
+}
+
+.content-page .text h2 {
+  font-size: 2em;
+}
+
+.content-page .text h3 {
+  font-size: 1.6em;
+}
+
+.content-page .text h4 {
+  font-size: 1.2em;
+}
+
+.content-page .text p {
+  font-size: 16px;
+  color: #020304;
+  font-weight: 500;
+}
+
+.contact-our {
+  text-align: center;
+  max-width: 350px;
+  padding: 20px 10px 20px;
+  margin: 0 auto 40px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: #0cebeb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-our .more-price {
+  display: block;
+  background: #fff;
+  padding: 5px 11px;
+  margin: 10px auto 0;
+  max-width: max-content;
+  text-decoration: none;
+  color: #345185;
+}
+
+@media (max-width: 690px) {
+  .navigation {
+    background-color: #9fe6db;
+  }
+}

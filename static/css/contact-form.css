@@ -1,0 +1,86 @@
+/* 
+** Theme: File Style Contact Form WebSite;
+** Author: Abdallah Mohamed;
+** Version: 1.0.0;
+*/
+
+.form-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgb(0 0 0 / 0.40), rgb(0 0 0 / 40%)), url('../images/icons/Waiau.svg') center / cover no-repeat;
+}
+
+.form-contact .form {
+  padding: 20px;
+  padding: 30px 40px;
+  margin-right: 50px;
+  min-width: 370px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-contact .form .title {
+  font-size: 1.6em;
+  color: #19252e;
+}
+
+.form-contact .form input,
+.form-contact .form textarea {
+  border: 1px solid #ddd;
+  padding: 10px !important;
+  display: block;
+  width: 100%;
+  margin: 10px 0 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.form-contact .form input:focus,
+.form-contact .form textarea:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+.form-contact .form input::placeholder,
+.form-contact .form textarea::placeholder {
+  color: #aaa !important;
+}
+
+.form-contact .form button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #1473e6;
+}
+
+.form-contact .form button:hover {
+  background: #1a66c1;
+}
+
+.form-contact .container-logo a {
+  display: block;
+  max-width: 300px;
+}
+
+.form-contact .container-logo a img {
+  display: block;
+  width: 100%;
+}
